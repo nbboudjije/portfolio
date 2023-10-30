@@ -52,7 +52,7 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <div className="flex flex-col fixed top-[35%] left-0">
+      <div className="hidden md:flex flex-col fixed top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between item-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-700">
             <a
@@ -104,28 +104,28 @@ const Navbar = () => {
             : "w-full h-screen bg-slate-900 flex flex-col justify-center items-center absolute top-0 left-0 "
         }
       >
-        <ul>
-          <li className="py-6 text-4xl text-center">
+        <ul className="cursor-pointer border-fuchsia-600 border-s-2">
+          <li className="py-6 text-4xl text-center hover:bg-fuchsia-600 duration-300">
             <Link to="home" onClick={toogleN} smooth={true} duration={500}>
               Home
             </Link>
           </li>
-          <li className="py-6 text-4xl text-center">
+          <li className="py-6 text-4xl text-center hover:bg-fuchsia-600 duration-300">
             <Link to="about" onClick={toogleN} smooth={true} duration={500}>
               About
             </Link>
           </li>
-          <li className="py-6 text-4xl text-center">
+          <li className="py-6 text-4xl text-center hover:bg-fuchsia-600 duration-300">
             <Link to="skills" onClick={toogleN} smooth={true} duration={500}>
               Skills
             </Link>
           </li>
-          <li className="py-6 text-4xl text-center">
+          <li className="py-6 text-4xl text-center hover:bg-fuchsia-600 duration-300">
             <Link to="projects" onClick={toogleN} smooth={true} duration={500}>
               Projects
             </Link>
           </li>
-          <li className="py-6 text-4xl text-center">
+          <li className="py-6 text-4xl text-center hover:bg-fuchsia-600 duration-300">
             <Link to="contact" onClick={toogleN} smooth={true} duration={500}>
               Contact
             </Link>

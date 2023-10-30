@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-slate-900 flex justify-center items-center"
+      className="mt-40 md:mt-0 w-full h-screen bg-slate-900 flex justify-center items-center "
     >
       <motion.div {...fadeAnimation}>
         <form
@@ -47,7 +47,7 @@ const Contact = () => {
           >
             Send
           </button>
-        </form>{" "}
+        </form>
       </motion.div>
     </div>
   );

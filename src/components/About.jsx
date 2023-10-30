@@ -20,7 +20,9 @@ const About = () => {
               Hi, I'm Nadjib, Nice to meet you
             </h1>
             <p>
-            My primary expertise lies in React JS,Tailwind Css, Firebase and I have a proven track record of developing more than 15 innovative and interactive projects. 
+              My primary expertise lies in React JS, Tailwind Css, Firebase,
+              Node Js and I have a proven track record of developing more than
+              15 innovative and interactive projects.
             </p>
           </div>
         </div>

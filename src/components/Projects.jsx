@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="w-full md:h-screen text-gray-300 bg-slate-900"
+      className="mt-44 md:mt-0 w-full h-screen text-gray-300 bg-slate-900"
     >
       <motion.div
         {...headContainerAnimation2}
@@ -17,7 +17,9 @@ const Projects = () => {
           <h1 className="text-4xl font-bold border-b-4 border-purple-500">
             Projects
           </h1>
-          <p className="py-6">Check Out some of my recent projects</p>
+          <p className="py-6">
+            Hover Over The Card to Check Some of my Recent Projects
+          </p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 content-div">
@@ -45,7 +47,7 @@ const Projects = () => {
             github="https://github.com/nbboudjije/my-chatroom"
             demo="https://mychat-67c1c.web.app/"
           />
-          <CardP title="Ecommercy" img="" github="" demo="" />
+          <CardP title="Ecommercy - Soon" img="" github="" demo="" />
           <CardP
             title="Admin Dashboard"
             img=""
